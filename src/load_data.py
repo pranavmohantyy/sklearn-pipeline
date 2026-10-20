@@ -1,0 +1,1 @@
+import pandas as pd\n\nurl = 'https://web.stanford.edu/class/archive/cs/cs109/cs109.1166/stuff/titanic.csv'\ndf = pd.read_csv(url)\ndf.head()
